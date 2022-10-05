@@ -7,8 +7,8 @@ import {
   Inter_700Bold, 
   Inter_900Black 
 } from '@expo-google-fonts/inter'
-import { Backgorund } from './src/components/Backgorund';
-import { Home } from './src/screens/Home';
+import { Background } from './src/components/Background';
+import { Routes } from './src/routes';
 import { Loading } from './src/components/Loading';
 
 export default function App() {
@@ -19,13 +19,13 @@ export default function App() {
     Inter_900Black
   })
   return (
-    <Backgorund>
+    <Background>
       <StatusBar 
         barStyle='light-content'
         backgroundColor='transparent'
         translucent
       />
-      {fontsLoaded ? <Home /> : <Loading />}
-    </Backgorund>
+      {fontsLoaded ? <Routes /> : <Loading />}
+    </Background>
   )
 }
