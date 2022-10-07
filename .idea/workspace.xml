@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47f2e9b2-b4de-47ef-b3bb-c4d868fe51de" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/mobile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mobile.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/@types/navigation.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/@types/navigation.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Background/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Background/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DuoCard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DuoCard/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DuoCard/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DuoCard/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/Games/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Games/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/Games/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Games/styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +35,7 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

@@ -1,7 +1,6 @@
 import React from "react";
 import { View, TouchableOpacity, Text } from "react-native";
-import { GameController } from 'phosphor-react-native';
-
+import { Entypo } from "@expo/vector-icons";
 import { DuoInfo } from "../DuoInfo";
 
 import { THEME } from "../../theme";
@@ -19,9 +18,10 @@ export interface DuoCardProps {
 
 interface Props {
   data: DuoCardProps;
+  onConnect: () => void;
 }
 
-export function DuoCard({ data }: Props) {
+export function DuoCard({ data, onConnect }: Props) {
   return (
     <View style={styles.container}>
       <DuoInfo 
@@ -42,10 +42,14 @@ export function DuoCard({ data }: Props) {
         colorValue={data.useVoiceChannel ? THEME.COLORS.SUCCESS : THEME.COLORS.ALERT}
       />
 
-      <TouchableOpacity style={styles.button}>
-        <GameController 
+      <TouchableOpacity 
+        onPress={onConnect}
+        style={styles.button}
+      >
+        <Entypo 
           color={THEME.COLORS.TEXT}
           size={20}
+          name='game-controller'
         />
         <Text style={styles.buttonTitle}>
           Conectar
