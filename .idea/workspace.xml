@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="47f2e9b2-b4de-47ef-b3bb-c4d868fe51de" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Background/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Background/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DuoCard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DuoCard/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DuoCard/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DuoCard/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/Games/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Games/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Games/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Games/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

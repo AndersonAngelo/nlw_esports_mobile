@@ -5,19 +5,20 @@ import { Entypo } from '@expo/vector-icons';
 
 import logoImg from '../../assets/logo-nlw-esports.png';
 
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Background } from '../../components/Background';
 import { Heading } from '../../components/Heading';
 import { DuoCard, DuoCardProps } from '../../components/DuoCard';
+import { DuoMatch } from '../../components/DuoMatch'
 
 import { GameParams } from '../../@types/navigation';
 
 import { THEME } from '../../theme';
 import { styles } from './styles';
-import React from 'react';
 
 export function Games() {
-  const [duos, setDuos] = useState<DuoCardProps[]>([])
+  const [duos, setDuos] = useState<DuoCardProps[]>([]);
+  const [discordDuoSelected, setDiscordDuoSelected] = useState('asas');
 
   const navigation = useNavigation();
   const route = useRoute();
@@ -82,6 +83,12 @@ export function Games() {
               Não há anúcios publicados ainda.
             </Text>
           )}
+        />
+
+        <DuoMatch
+          visible={discordDuoSelected.length > 0}
+          discord={'MilesMoras'}
+          onClose={() => setDiscordDuoSelected('')}
         />
       </SafeAreaView>
     </Background>
